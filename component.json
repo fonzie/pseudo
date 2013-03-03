@@ -1,0 +1,16 @@
+{
+  "name": "pseudo",
+  "repo": "fonzie/pseudo",
+  "description": "Use pseudo-elements easily",
+  "author": "Anthony Short",
+  "main": "pseudo.scss",
+  "version": "0.0.1",
+  "dependencies": {},
+  "remotes": [
+    "http://fonzie.herokuapp.com/packages"
+  ],
+  "files": [
+    "pseudo.scss"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,24 @@
+@mixin before {
+  &:before {
+    display: block;
+    content: '';
+    @content;
+  }
+}
+
+@mixin after {
+  &:after {
+    display: block;
+    content: '';
+    @content;
+  }
+}
+
+@mixin before-and-after {
+  &:after,
+  &:before {
+    display: block;
+    content: '';
+    @content;
+  }
+}
