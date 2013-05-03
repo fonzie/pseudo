@@ -1,0 +1,8 @@
+{
+  "name": "fonzie-pseudo",
+  "description": "Use pseudo-elements easily",
+  "author": "Anthony Short",
+  "main": "index.scss",
+  "version": "0.1.0",
+  "license": "MIT"
+}

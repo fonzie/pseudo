@@ -5,14 +5,14 @@ Easily use pseudo-elements. Adds properties so they display automatically.
 ## Installation
 
 ```
-fonzie install pseudo
+bower install fonzie-pseudo
 ```
 
 ## Usage
 
 ```scss
 .box {
-  @include before {
+  @include fz-before {
     backgroud: blue;
   }
 }
@@ -28,4 +28,4 @@ Outputs:
 }
 ```
 
-You can also use the mixins `after` and `before-and-after`.
+You can also use the mixins `fz-after` and `fz-beforeAndAfter`.
